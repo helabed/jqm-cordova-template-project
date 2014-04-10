@@ -29,7 +29,24 @@ Instructions
     cordova plugin add org.apache.cordova.dialogs
     cordova plugin add org.apache.cordova.splashscreen
     cordova plugin add org.apache.cordova.statusbar
+
+
+    # added by hani for fully functional mobile app on IOS, Android, Windows Phone, etc.
     cordova plugin add org.apache.cordova.inappbrowser
+    cordova plugin add org.apache.cordova.battery-status
+    cordova plugin add org.apache.cordova.camera
+    cordova plugin add org.apache.cordova.device-motion
+    cordova plugin add org.apache.cordova.file
+    cordova plugin add org.apache.cordova.file-transfer
+    cordova plugin add org.apache.cordova.geolocation
+    cordova plugin add org.apache.cordova.network-information
+
+
+    # these plugins may invoke privacy issues, only add them if you have a good reason to do so
+    cordova plugin add org.apache.cordova.contacts          # CRUD operations on User's contact records
+    cordova plugin add org.apache.cordova.media             # audio capture and playback only
+    cordova plugin add org.apache.cordova.media-capture     # audio, image video capture
+
     
     # add platforms 
     cordova platform add ios
